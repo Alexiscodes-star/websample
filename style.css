@@ -1,0 +1,198 @@
+ <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #b89c8c;
+            padding: 20px 40px;
+    b margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+           
+        }
+
+.subscription-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.subscription-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.subscription-container p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.subscription-container form {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription-container label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subscription-container input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.subscription-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.subscription-container button:hover {
+    background-color: #555;
+}
+
+        .header {
+            background-color: #421220;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo span {
+            font-size: 2em;
+            margin-left: 10px;
+        }
+
+         /* Basic styling for the navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .main {
+            background-color: #b89c8c;
+            padding: 2em;
+            text-align: center;
+        }
+        .hero-image-container {
+  position: relative; /* Create a relative container */
+}
+        .hero-image {
+            width: 1080px;
+            height: 180px;
+            object-fit: cover; 
+            border-radius: 10px;
+        }
+        .hero-text {
+  position: absolute; /* Position the text absolutely */
+  top: 20px; /* Move the text 20px from the top */
+  left: 400px; /* Move the text 20px from the left */
+  z-index: 2; /* Set the text z-index to 2, higher than the image */
+  color: #fff; /* White text color */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+   font-family: 'Lavoza', sans-serif; /* Use the Lavoza font */
+}
+
+        .main svg {
+            width: 100px;
+            height: 100px;
+        }
+
+        .main h2 {
+            font-size: 3em;
+            margin-top: 1em;
+            color: #fff;
+        }
+
+        .footer {
+            background-color: #b69b7d;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
